@@ -7,7 +7,7 @@ void Merge (int A[], int l, int r) {
   int temp[r - l + 1];
   
   for (int i = l; i <= r; i++) {
-    temp[i] = A[i];
+    temp[i - l] = A[i];
     
   }
   
@@ -18,7 +18,8 @@ void Merge (int A[], int l, int r) {
   
   for (curr = l; curr <= r; curr++) {
     if (i1 == m + 1) {
-      A[curr] = temp[i2++];
+      A[curr] = temp[i2 - l];
+      i2++;
       
     }
     
