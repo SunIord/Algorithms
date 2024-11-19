@@ -22,3 +22,14 @@ int main() {
 
   return 0;
 }
+
+/*
+Sample Input
+4
+1
+2     3 
+   10
+
+Sample Output
+Average = 4 
+*/
