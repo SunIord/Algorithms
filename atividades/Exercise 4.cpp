@@ -1,6 +1,6 @@
-# include <iostream>
+#include <iostream>
 #include <string>
-# include <stdlib.h>
+#include <stdlib.h>
 
 using namespace std;
 
